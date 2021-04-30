@@ -91,7 +91,7 @@ Configuring Jenkins to keep the runner alive
 8.  Set email triggers for failure (optional)
 
     -   Set Project Recipient list
-        ![](./figures/post-build-actions-project-recipient-list.png)
+        ![](./figures/post-build-actions-project-recipients-list.gif)
         -   Select Advanced
             -   trigger Failure any
 
