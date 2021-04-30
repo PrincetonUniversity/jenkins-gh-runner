@@ -59,26 +59,23 @@ started is:
 4.  After you are done looking at the runner\'s log, don\'t forget that
     you need to detach from the tmux session (with `CTRL+B` or simply
     killing the window) but you should not kill that session, otherwise
-    it will kill the runner.
-    [./figures/tmux-attach-and-run-job.mp4](./figures/tmux-attach-and-run-job.mp4)
+    it will kill the runner. ![](./figures/tmux-attach-and-run-job.gif)
 
 Configuring Jenkins to keep the runner alive
 ============================================
 
 1.  Connect to the Jenkins server. Remember that this requires you to be
     either on campus or on the VPN.
-2.  Create new project
-    [./figures/create-new-project.mp4](./figures/create-new-project.mp4)
-3.  Discard old builds
-    [./figures/discard-olf-builds.mp4](./figures/discard-olf-builds.mp4)
+2.  Create new project ![](./figures/create-new-project.gif)
+3.  Discard old builds ![](./figures/discard-olf-builds.gif)
 4.  Restrict where the job can run
-    [./figures/restrict-where-jobs-can-run.mp4](./figures/restrict-where-jobs-can-run.mp4)
+    ![](./figures/restrict-where-jobs-can-run.gif)
 5.  Set source code management to none
-    [./figures/source-code-management-none.mp4](./figures/source-code-management-none.mp4)
+    ![](./figures/source-code-management-none.gif)
 6.  Build trigger: build periodically (set to check every 1 hour)
-    [./figures/periodic-build-trigger.mp4](./figures/periodic-build-trigger.mp4)
+    ![](./figures/periodic-build-trigger.gif)
 7.  Build (bash shell execution)
-    [./figures/build-shell-execution.mp4](./figures/build-shell-execution.mp4)
+    ![](./figures/build-shell-execution.gif)
 8.  Set email triggers for failure (optional)
     -   Set Project Recipient list
         ![](./figures/post-build-actions-project-recipient-list.png)
