@@ -66,19 +66,33 @@ Configuring Jenkins to keep the runner alive
 
 1.  Connect to the Jenkins server. Remember that this requires you to be
     either on campus or on the VPN.
+
 2.  Create new project ![](./figures/create-new-project.gif)
+
 3.  Discard old builds ![](./figures/discard-olf-builds.gif)
+
 4.  Restrict where the job can run
     ![](./figures/restrict-where-jobs-can-run.gif)
+
 5.  Set source code management to none
     ![](./figures/source-code-management-none.gif)
+
 6.  Build trigger: build periodically (set to check every 1 hour)
+
+    ``` {.example}
+    H * * * *
+    ```
+
     ![](./figures/periodic-build-trigger.gif)
+
 7.  Build (bash shell execution)
     ![](./figures/build-shell-execution.gif)
+
 8.  Set email triggers for failure (optional)
+
     -   Set Project Recipient list
         ![](./figures/post-build-actions-project-recipient-list.png)
         -   Select Advanced
             -   trigger Failure any
+
 9.  Save.
