@@ -95,6 +95,12 @@ Configuring Jenkins to keep the runner alive
     ![](./figures/periodic-build-trigger.gif)
 
 7.  Build (bash shell execution)
+
+    ``` {.shell}
+    #!/bin/bash
+    source /home/luet/actions-runner/check-runner.sh
+    ```
+
     ![](./figures/build-shell-execution.gif)
 
 8.  Set email triggers for failure (optional)
