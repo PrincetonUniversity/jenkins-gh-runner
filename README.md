@@ -1,6 +1,13 @@
----
-title: 'GitHub Actions Self-hosted runners'
----
+-   [GitHub](#github)
+    -   [Define actions in Git repo](#define-actions-in-git-repo)
+    -   [GitHub doc](#github-doc)
+    -   [My example](#my-example)
+-   [cluster (adroit)](#cluster-adroit)
+    -   [Follow directions on GitHub](#follow-directions-on-github)
+    -   [Create the script to check on the status of the
+        runner](#create-the-script-to-check-on-the-status-of-the-runner)
+-   [Configuring Jenkins to keep the runner
+    alive](#configuring-jenkins-to-keep-the-runner-alive)
 
 GitHub
 ======
