@@ -76,9 +76,10 @@ Configuring Jenkins to keep the runner alive
 
 2.  Create new project ![](./figures/create-new-project.gif)
 
-3.  Discard old builds ![](./figures/discard-olf-builds.gif)
+3.  Discard old builds ![](./figures/discard-old-builds.gif)
 
-4.  Restrict where the job can run
+4.  Restrict where the job can run. This is where you enter the name of
+    your agent (`adroit_luet`) in this case.
     ![](./figures/restrict-where-jobs-can-run.gif)
 
 5.  Set source code management to none
